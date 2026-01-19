@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The art of creating the perfect fighting game</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+  <div class="header-content">
+    <h1>Noah V. Blog</h1>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/noah-vonsee/">
+        <img src="assets/images/LinkedInLogo.png" alt="LinkedIn" width="50" height="50">
+      </a>
+      <a href="https://github.com/NoahVonsee">
+        <img src="assets/images/GitHubLogo.png" alt="GitHub" width="50" height="50">
+      </a>
+    </div>
+  </div>
+  <div class="page-links">
+    <a href="index.html">
+        Home
+    </a>
+    <a href="fighter.html">
+        The art of creating fighting games
+    </a>
+    <a href="fighter.html">
+        The art of creating fighting games
+    </a>
+    <a href="fighter.html">
+        The art of creating fighting games
+    </a>
+  </div>
+</header>
+
+    
+
+    <main>
+        <menu>
+<nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#theoretical-framework">Theoretical Framework</a>
+        <a href="#design">Design</a>
+        <a href="#engine">Engine</a>
+        <a href="#netcode">Netcode</a>
+        <a href="#server-hosting">Server Hosting</a>
+    </nav>
+        </menu>
+    	<h1>The art of creating the perfect fighting game</h1>
+        <img src="assets/images/StreetFighterIIIThirdStrike.jpg" alt="Street Fighter III: Third Strike" width="960" height="540">
+        
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>
+            	Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, alteranfabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus 					repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.
+            </p>
+        </section>
+
+        <section id="theoretical-framework">
+            <h2>Theoretical Framework</h2>
+        </section>
+
+        <section id="design">
+            <h2>Design</h2>
+            
+            <h3>Design Pillars</h3>
+            <h4>Player Expression</h4>
+            <h4>Yomi</h4>
+            <h4>Competition</h4>
+            
+            <h3>Input</h3>
+            <h4>Notation</h4>
+            <img src="assets/images/NumericNotation.jpg" alt="Numeric Notation" width="300" height="300" class="img-right">
+            <p>
+                These inputs are often described using the numeric annotation system, where each number represents a position of the stick. 
+                This notation is written down with the character facing right in mind; if the player is facing left these inputs are mirrored. 
+                This directional stick input is used to both move your character and to perform attacks at the same time. Conventionally, in 
+                traditional fighters, holding 7, 8 or 9 causes the character to perform a jump with 7 and 9 being directional jumps and 
+                doubletapping 4 or 6 in a short span causes the character to perform a dash if possible. 
+			</p>
+            <h4>Input Devices</h4>
+            <h4>Motion Input Versus Simple Input</h4>			 
+            <p>
+                Motion inputs is the legacy input system used by traditional fighting games. To perform certain moves, often specials and supers, 
+                a player will have to input certain motions with the stick, hence “Motion inputs”. To perform these motions, a series of inputs 
+                is required, for example, 236 to perform a quarter circle forward, the input used to shoot fireballs as Ryu in the Street 
+                Fighter series. This motion has to be done within a certain timespan and is often combined with an attack button. Motion inputs 
+                offer a lot of input combinations, meaning that a character could hypothetically perform 13 different actions per attack button, 
+                excluding states like “Jumping”, “Crouching” and even “While Rising” as used in the Tekken series. Since games can only register 
+                one input for the stick per frame, a move that uses a motion could hypothetically take a few frames to input if the motion isn’t 
+                buffered.
+            </p>
+            <p>
+                Simple inputs are relatively new in traditional fighters but are often used in platform fighting games with moves being performed
+                by holding the stick in a direction and pressing an attack button. Street Fighter and Tekken, both games that have created a 
+                simple input control system usually lack buttons to match the motion input system, forcing them to leave out a few moves for each 
+                character. Simple inputs offer fewer input combinations with only 6 per attack button, that’s why many games that use simple 
+                inputs create separate buttons for specials. Since a motion isn’t required to perform certain moves, any move can be inputted 
+                instantly, making it easier for a player to react with specials and supers.
+            </p>
+            <p>
+                The main difference between motion input and simple input are the barrier of entry and level of mastery that a player can achieve 
+                over execution of inputs. Motion inputs are harder to execute and harder to master, whereas simple input makes execution a 
+                non-factor in a player's skill, instead a player's mastery over the controls comes down to timing. When the significance of 
+                execution is removed, the emphasis that is put on other factors like reading, reacting and adapting to your opponent is increased. 
+                Reacting also becomes easier when using simple inputs, since the time it takes to perform motion input moves is eliminated. 
+                Accessibility is also a big influence, with simple inputs being much easier to perform for people with physical disabilities and 
+                being able to be performed by a variety of different input systems from the ones listed in input devices. [GameName] will be using 
+                simple inputs. I personally don’t believe execution or pure reactions should be the gatekeeper to a great player, although I do 
+                believe they are important. This comes with the added benefit of accessibility as well as the ability to perform instant specials 
+                and supers. Since pure reactions should be a main focus, it is important that there are no one-beats-all defensive countermeasures 
+                in the game, meaning every defensive option should have a viable way to beat it that rewards the player accordingly for 
+                anticipating their opponent.
+		</p>
+        </section>
+        
+        <section id="engine">
+            <h2>Engine</h2>
+            
+            <h3>Requirements</h3>
+            
+            <h3>Implementation</h3>
+            
+            <h4>Render API</h4>
+            
+            <h4>Engine Architecture</h4>
+        </section>
+
+        <section id="netcode">
+            <h2>Netcode</h2>
+            
+            <h3>Requirements</h3>
+            
+            <h3>Implementation</h3>
+            
+            <h4>GGPO</h4>
+            
+            <h4>Rollback</h4>
+        </section>
+        
+        <section id="server-hosting">
+            <h2>Server Hosting</h2>
+            
+            <h3>Requirements</h3>
+            
+            <h4>Dedicated Server Hosting Versus Peer-to-Peer hosting</h4>
+            
+            <h3>Implementation</h3>
+            
+            <h4>Skill-Based Matchmaking</h4>
+            
+        </section>
+        
+        <section id="server-hosting">
+            <h2>Sources</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+        &copy; 2026 Noah Vonsee. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+

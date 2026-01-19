@@ -10,3 +10,71 @@ header {
  	background: #555;
 	color: #f1f1f1;
 }
+
+menu {
+  display: grid;
+	top: 125px ;
+  position: sticky;
+ 	background: #555;
+}
+
+menu a{
+  /* background: #799999;
+
+  font-size: 16px;
+  min-height: 35px;
+  
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;*/
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.page-links {
+  --cols: 4;
+
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  gap: 3px;
+}
+
+.page-links a {
+  background: #799999;
+
+  font-size: 16px;
+  min-height: 35px;
+  
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+social-icons {
+  margin-left: auto;
+}
+
+.social-icons img {
+  margin-left: 1rem;
+}
+
+.img-right {
+	float: right;
+	margin-left: 5px; 
+	margin-bottom: 5px; 
+	margin-right: 5px;
+}
+
+
